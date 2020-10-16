@@ -1,15 +1,18 @@
 <?php 
 
-$daysInWeek = 7;
+$daysInWeek = 6;
 
-$name = 'Frank';
+// $name = 'Frank';
 $people = [
-    ['bill' => 'hello'],
-    ['bill' => 'hi']
+    7 => 'hello',
+    1 => 'no',
 ];
 
-echo $name;
-echo $daysInWeek . ' days in week';
-echo $people[0]['bill'];
-echo '<h1>' . "hello" . '</h1>';
-echo '<a href="http://www.google.com">Link</a>';
+if (in_array($daysInWeek, array_keys($people))) {
+    echo $people[$daysInWeek];
+} else {
+    echo 'that is not valid';
+}
+// echo $people[0]['bill'];
+// echo '<h1>' . "hello" . '</h1>';
+// echo '<a href="http://www.google.com">Link</a>';
