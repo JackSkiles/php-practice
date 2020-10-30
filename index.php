@@ -5,8 +5,7 @@ $users = [
     ['name' => 'bob', 'age' => 23332],
 ];
 
-var_dump($users);
-echo('hello');
+echo '<pre>', var_dump($users), '</pre>';
 
 // $daysInWeek = 6;
 
