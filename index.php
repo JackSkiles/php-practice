@@ -1,15 +1,23 @@
 <?php 
 
-$daysInWeek = 6;
+$users = [
+    ['name' => 'alex', 'age' => 10],
+    ['name' => 'bob', 'age' => 23332],
+];
 
-$roomsRequested = 3;
-$roomsAvailable = 3;
+var_dump($users);
+echo('hello');
 
-if ($roomsAvailable >= $roomsRequested) {
-    echo 'Enough rooms available';
-} else {
-    echo 'Not enough rooms';
-}
+// $daysInWeek = 6;
+
+// $roomsRequested = 3;
+// $roomsAvailable = 3;
+
+// if ($roomsAvailable >= $roomsRequested) {
+//     echo 'Enough rooms available';
+// } else {
+//     echo 'Not enough rooms';
+// }
 // $name = 'Frank';
 // $people = [
 //     7 => 'hello',
