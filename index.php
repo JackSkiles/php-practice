@@ -1,8 +1,12 @@
 <?php 
 
-function fullName() {
-    echo 'Jack Skiles';
+function fullName($firstName, $lastName) {
+    return $firstName . ' ' . $lastName;
 }
+
+$fullName = fullName('Jack', 'Skiles');
+
+echo $fullName;
 // $users = [
 //     ['name' => 'alex', 'age' => 10],
 //     ['name' => 'bob', 'age' => 23332],
