@@ -1,11 +1,14 @@
 <?php 
 
-$users = [
-    ['name' => 'alex', 'age' => 10],
-    ['name' => 'bob', 'age' => 23332],
-];
+function fullName() {
+    echo 'Jack Skiles';
+}
+// $users = [
+//     ['name' => 'alex', 'age' => 10],
+//     ['name' => 'bob', 'age' => 23332],
+// ];
 
-echo '<pre>', var_dump($users), '</pre>';
+// echo '<pre>', print_r($users), '</pre>';
 
 // $daysInWeek = 6;
 
