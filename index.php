@@ -1,7 +1,12 @@
 <?php 
 
 function add() {
-    var_dump(func_get_args());
+    $total = 0;
+
+    forEach (func_get_args() as $number){
+        $total += $number;
+    }
+    return $total;
 }
 echo add(5, 10, 10);
 
