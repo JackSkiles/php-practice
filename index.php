@@ -1,12 +1,24 @@
 <?php 
 
-function fullName($firstName, $lastName) {
-    return $firstName . ' ' . $lastName;
+$numbers = [5, 10, 10, 29];
+
+function add(array $numbers){
+    $total = 0;
+    forEach ($numbers as $number) {
+        $total = $number + $total;
+    }
+    return $total;
 }
 
-$fullName = fullName('Jack', 'Skiles');
+echo add($numbers);
 
-echo $fullName;
+// function fullName($firstName, $lastName) {
+//     return $firstName . ' ' . $lastName;
+// }
+
+// $fullName = fullName('Jack', 'Skiles');
+
+// echo $fullName;
 // $users = [
 //     ['name' => 'alex', 'age' => 10],
 //     ['name' => 'bob', 'age' => 23332],
