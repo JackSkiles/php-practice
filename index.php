@@ -1,16 +1,21 @@
 <?php 
 
-$numbers = [5, 10, 10, 29];
-
-function add(array $numbers){
-    $total = 0;
-    forEach ($numbers as $number) {
-        $total = $number + $total;
-    }
-    return $total;
+function add() {
+    var_dump(func_get_args());
 }
+echo add(5, 10, 10);
 
-echo add($numbers);
+// $numbers = [5, 10, 10, 29];
+
+// function add(array $numbers){
+//     $total = 0;
+//     forEach ($numbers as $number) {
+//         $total = $number + $total;
+//     }
+//     return $total;
+// }
+
+// echo add($numbers);
 
 // function fullName($firstName, $lastName) {
 //     return $firstName . ' ' . $lastName;
