@@ -1,7 +1,7 @@
 <?php 
 
 
-include 'hello.php';
+include_once 'hello.php';
 // function add() {
 //     $total = 0;
 
