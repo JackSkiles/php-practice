@@ -1,7 +1,8 @@
 <?php 
 
+require_once 'functions/user.php';
 
-include_once 'hello.php';
+echo fullName('Dale', 'Ernheart');
 // function add() {
 //     $total = 0;
 
