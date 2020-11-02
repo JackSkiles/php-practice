@@ -1,8 +1,10 @@
 <?php 
 
-require_once 'functions/user.php';
+echo $_GET['slug'];
 
-echo fullName('Dale', 'Ernheart');
+// require_once 'functions/user.php';
+
+// echo fullName('Dale', 'Ernheart');
 // function add() {
 //     $total = 0;
 
