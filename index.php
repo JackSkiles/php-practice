@@ -1,7 +1,11 @@
 <?php 
 
-echo $_GET['slug'];
+$page = $_GET['page'];
+$searchTerm = $_GET['search'];
+$pages = 10;
 
+echo '<h3>Searching for: ' . $searchTerm . '</h3>';
+echo '<p>You are on page ' . $page . '</p>';
 // require_once 'functions/user.php';
 
 // echo fullName('Dale', 'Ernheart');
