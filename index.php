@@ -1,14 +1,16 @@
 <?php 
 
-function add() {
-    $total = 0;
 
-    forEach (func_get_args() as $number){
-        $total += $number;
-    }
-    return $total;
-}
-echo add(5, 10, 10);
+include 'hello.php';
+// function add() {
+//     $total = 0;
+
+//     forEach (func_get_args() as $number){
+//         $total += $number;
+//     }
+//     return $total;
+// }
+// echo add(5, 10, 10);
 
 // $numbers = [5, 10, 10, 29];
 
